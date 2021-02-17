@@ -9,14 +9,14 @@ const [showAddTask,setShowAddTask]= useState(false)
 
   const [tasks , setTasks]= useState ([ {id:1 ,
     text:"work1",
-    time:"8:00 am ",
+    day:"8:00 am ",
     reminder:true
 
   },
     {
     id:2 ,
     text:"work2" ,
-    time:"9:00 am ",
+    day:"9:00 am ",
     reminder:false
     }
 
@@ -26,6 +26,8 @@ const addTask=(task)=>{
   const id = Math.floor(Math.random()*1000)+1
   const newTask = {id , ...task}
   setTasks([...tasks , newTask])
+  console.log(task)
+  
 }
 
 const deleteTask=(id)=>{
