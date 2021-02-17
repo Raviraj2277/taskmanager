@@ -1,3 +1,9 @@
+
+# Task Manager using react
+https://taskmanagerbyravi.netlify.app/
+
+we can add , delete tasks also we can set reminder for perticular task by just double tap on task .
+by seting reminder it shows green line to left side of that task.
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
